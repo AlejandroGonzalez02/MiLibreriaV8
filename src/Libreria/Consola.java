@@ -13,4 +13,7 @@ public class Consola implements SaidaMensaxe{
     public void mensaxe(){
         System.out.println("Mensaxe por consola:"+mensaxe);
     }
+    public void metodoSoConsola(){
+        System.out.println("Metodo añadido so na consola");
+    }
 }

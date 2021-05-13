@@ -14,6 +14,11 @@ public class Ventana implements SaidaMensaxe{
      */
     @Override
     public void mensaxe(){
+
         JOptionPane.showInputDialog(null,"Mensaxe por ventana:"+mensaxe);
     }
+    public void metodoSoVentana(){
+        System.out.println("Metodo añadido so na ventana");
+    }
+
 }
