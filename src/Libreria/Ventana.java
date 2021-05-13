@@ -5,7 +5,6 @@ import javax.swing.*;
 public class Ventana implements SaidaMensaxe{
 
     private String mensaxe;
-
     public Ventana(String mensaxe){
         this.mensaxe=mensaxe;
     }

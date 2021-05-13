@@ -1,9 +1,7 @@
 package Libreria;
 
 public class Consola implements SaidaMensaxe{
-
     private String mensaxe;
-
     public Consola(String mensaxe){
         this.mensaxe=mensaxe;
     };
